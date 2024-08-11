@@ -568,6 +568,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     margin-top: 10px;
 }
 
+
 .navbar .dropdown-item {
     color: #333; /* Text color */
     padding: 10px 20px;
@@ -594,7 +595,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
   .search-container {
     position: relative;
-    right: -500px; 
+    /* right: -500px;  */
     background: #fff;
     font-family: 'Urbanist', sans-serif;
     height: 40px;
@@ -628,8 +629,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     cursor: pointer;
     margin-right: 10px;
     transition: color 0.3s ease;
-}
-
+} 
   
 
 /* ==========================================================================
@@ -1516,7 +1516,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   #blog .blog-item-wrapper .author {
     padding: 15px 30px 15px 30px; /* Decreased padding for author section */
     display: flex;
-    align-items: center; /* Aligns author with other elements */
+    align-items: left; /* Aligns author with other elements */
   }
   
   #blog .blog-item-wrapper .author span.name a,
